@@ -1,0 +1,24 @@
+{
+  "name": "test-server-ping",
+  "version": "1.0.0",
+  "description": "Testing server and pinging it inside GitHub Action",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "serve public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bahmutov/test-server-ping.git"
+  },
+  "author": "Gleb Bahmutov <gleb.bahmutov@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bahmutov/test-server-ping/issues"
+  },
+  "homepage": "https://github.com/bahmutov/test-server-ping#readme",
+  "dependencies": {
+    "got": "9.6.0",
+    "serve": "11.2.0"
+  }
+}
